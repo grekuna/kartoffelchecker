@@ -9,3 +9,13 @@ update	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	
 destroy	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^  def destroy$/;"	method	line:68	class:UsersController
 set_user	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^    def set_user$/;"	method	line:78	class:UsersController
 user_params	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^    def user_params$/;"	method	line:83	class:UsersController
+default	/Users/martius/Code/Kartoffelchecker/config/database.yml	/^default: &default$/;"	function	line:7
+adapter	/Users/martius/Code/Kartoffelchecker/config/database.yml	/^    adapter: postgresql$/;"	function	line:8
+pool	/Users/martius/Code/Kartoffelchecker/config/database.yml	/^    pool: 5$/;"	function	line:9
+encoding	/Users/martius/Code/Kartoffelchecker/config/database.yml	/^    encoding: unicode$/;"	function	line:10
+development	/Users/martius/Code/Kartoffelchecker/config/database.yml	/^development:$/;"	function	line:12
+database	/Users/martius/Code/Kartoffelchecker/config/database.yml	/^  database: kartoffel_development$/;"	function	line:14
+test	/Users/martius/Code/Kartoffelchecker/config/database.yml	/^test:$/;"	function	line:18
+database	/Users/martius/Code/Kartoffelchecker/config/database.yml	/^  database: kartoffel_test$/;"	function	line:20
+production	/Users/martius/Code/Kartoffelchecker/config/database.yml	/^production:$/;"	function	line:22
+database	/Users/martius/Code/Kartoffelchecker/config/database.yml	/^  database: kartoffel_production$/;"	function	line:24
