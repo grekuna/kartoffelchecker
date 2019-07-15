@@ -18,9 +18,6 @@ class UsersController < ApplicationController
   end
 
   def guess
-      #@email = "gregor_martius"
-
-
   end
 
   # GET /users/1

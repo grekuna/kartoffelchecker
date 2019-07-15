@@ -4,3 +4,15 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+UsersController	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	class	line:1
+index	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^  def index$/;"	method	line:6	class:UsersController
+solution	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^  def solution$/;"	method	line:10	class:UsersController
+guess	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^  def guess$/;"	method	line:20	class:UsersController
+show	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^  def show$/;"	method	line:25	class:UsersController
+new	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^  def new$/;"	method	line:29	class:UsersController
+edit	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^  def edit$/;"	method	line:34	class:UsersController
+create	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^  def create$/;"	method	line:39	class:UsersController
+update	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^  def update$/;"	method	line:55	class:UsersController
+destroy	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^  def destroy$/;"	method	line:69	class:UsersController
+set_user	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^    def set_user$/;"	method	line:79	class:UsersController
+user_params	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^    def user_params$/;"	method	line:84	class:UsersController
