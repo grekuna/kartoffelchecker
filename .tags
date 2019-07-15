@@ -28,3 +28,7 @@ set_user	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.r
 user_params	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^    def user_params$/;"	method	line:84	class:UsersController
 AddSorte1toUsers	/Users/martius/Code/Kartoffelchecker/db/migrate/20190715142522_add_sorte1to_users.rb	/^class AddSorte1toUsers < ActiveRecord::Migration[5.2]$/;"	class	line:1
 change	/Users/martius/Code/Kartoffelchecker/db/migrate/20190715142522_add_sorte1to_users.rb	/^  def change$/;"	method	line:2	class:AddSorte1toUsers
+AddSorte11toUsers	/Users/martius/Code/Kartoffelchecker/db/migrate/20190715151125_add_sorte11to_users.rb	/^class AddSorte11toUsers < ActiveRecord::Migration[5.2]$/;"	class	line:1
+change	/Users/martius/Code/Kartoffelchecker/db/migrate/20190715151125_add_sorte11to_users.rb	/^  def change$/;"	method	line:2	class:AddSorte11toUsers
+AddSorte22toUsers	/Users/martius/Code/Kartoffelchecker/db/migrate/20190715151321_add_sorte22to_users.rb	/^class AddSorte22toUsers < ActiveRecord::Migration[5.2]$/;"	class	line:1
+change	/Users/martius/Code/Kartoffelchecker/db/migrate/20190715151321_add_sorte22to_users.rb	/^  def change$/;"	method	line:2	class:AddSorte22toUsers
