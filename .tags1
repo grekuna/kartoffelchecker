@@ -4,3 +4,5 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+AddSorte1toUsers	/Users/martius/Code/Kartoffelchecker/db/migrate/20190715142522_add_sorte1to_users.rb	/^class AddSorte1toUsers < ActiveRecord::Migration[5.2]$/;"	class	line:1
+change	/Users/martius/Code/Kartoffelchecker/db/migrate/20190715142522_add_sorte1to_users.rb	/^  def change$/;"	method	line:2	class:AddSorte1toUsers

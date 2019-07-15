@@ -10,8 +10,6 @@ production	/Users/martius/Code/Kartoffelchecker/config/database.yml	/^production
 database	/Users/martius/Code/Kartoffelchecker/config/database.yml	/^  database: kartoffel_production$/;"	function	line:24
 Kartoffelchecker	/Users/martius/Code/Kartoffelchecker/config/application.rb	/^module Kartoffelchecker$/;"	module	line:12
 Application	/Users/martius/Code/Kartoffelchecker/config/application.rb	/^  class Application < Rails::Application$/;"	class	line:13	class:Kartoffelchecker
-AddSorte1toUsers	/Users/martius/Code/Kartoffelchecker/db/migrate/20190715142522_add_sorte1to_users.rb	/^class AddSorte1toUsers < ActiveRecord::Migration[5.2]$/;"	class	line:1
-change	/Users/martius/Code/Kartoffelchecker/db/migrate/20190715142522_add_sorte1to_users.rb	/^  def change$/;"	method	line:2	class:AddSorte1toUsers
 AddSorte2toUsers	/Users/martius/Code/Kartoffelchecker/db/migrate/20190715142531_add_sorte2to_users.rb	/^class AddSorte2toUsers < ActiveRecord::Migration[5.2]$/;"	class	line:1
 change	/Users/martius/Code/Kartoffelchecker/db/migrate/20190715142531_add_sorte2to_users.rb	/^  def change$/;"	method	line:2	class:AddSorte2toUsers
 AddNametoUsers	/Users/martius/Code/Kartoffelchecker/db/migrate/20190715144426_add_nameto_users.rb	/^class AddNametoUsers < ActiveRecord::Migration[5.2]$/;"	class	line:1
@@ -28,3 +26,5 @@ update	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	
 destroy	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^  def destroy$/;"	method	line:69	class:UsersController
 set_user	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^    def set_user$/;"	method	line:79	class:UsersController
 user_params	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^    def user_params$/;"	method	line:84	class:UsersController
+AddSorte1toUsers	/Users/martius/Code/Kartoffelchecker/db/migrate/20190715142522_add_sorte1to_users.rb	/^class AddSorte1toUsers < ActiveRecord::Migration[5.2]$/;"	class	line:1
+change	/Users/martius/Code/Kartoffelchecker/db/migrate/20190715142522_add_sorte1to_users.rb	/^  def change$/;"	method	line:2	class:AddSorte1toUsers
