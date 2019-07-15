@@ -1,16 +1,8 @@
-<p> Hello</p>
-
-<p>Enter Email-Adress</p>
-
-
-
+<p>Bitte gib deine Email-Adresse ein (sollte die gleiche Adresse sein, auf der du unseren Newsletter empfängst)</p>
 
 
 <%= form_tag(solution_users_path, method: "get") do %>
-  <%= label_tag(:email, "Email:") %>
+  <%= label_tag(:email, "Email-Adresse") %>
   <%= text_field_tag(:email) %>
-  <%= submit_tag("Search") %>
+  <%= submit_tag("Kartoffel-Check") %>
 <% end %>
-
-
-<p> You Solution is: </p>
