@@ -1,0 +1,16 @@
+<p> Hello</p>
+
+<p>Enter Email-Adress</p>
+
+
+
+
+
+<%= form_tag(guess_users_path, method: "get") do %>
+  <%= label_tag(:email, "Email:") %>
+  <%= text_field_tag(:email) %>
+  <%= submit_tag("Search") %>
+<% end %>
+
+
+<p> You Solution is: </p>

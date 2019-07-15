@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: MyString
+  kartoffel1: 1
+  kartoffel2: 1
+  tipp1: 1
+  tipp2: 1
+
+two:
+  email: MyString
+  kartoffel1: 1
+  kartoffel2: 1
+  tipp1: 1
+  tipp2: 1

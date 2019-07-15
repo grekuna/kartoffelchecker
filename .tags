@@ -1,0 +1,11 @@
+UsersController	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	class	line:1
+index	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^  def index$/;"	method	line:6	class:UsersController
+guess	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^  def guess$/;"	method	line:10	class:UsersController
+show	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^  def show$/;"	method	line:24	class:UsersController
+new	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^  def new$/;"	method	line:28	class:UsersController
+edit	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^  def edit$/;"	method	line:33	class:UsersController
+create	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^  def create$/;"	method	line:38	class:UsersController
+update	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^  def update$/;"	method	line:54	class:UsersController
+destroy	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^  def destroy$/;"	method	line:68	class:UsersController
+set_user	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^    def set_user$/;"	method	line:78	class:UsersController
+user_params	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^    def user_params$/;"	method	line:83	class:UsersController
