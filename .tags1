@@ -4,5 +4,3 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-AddNametoUsers	/Users/martius/Code/Kartoffelchecker/db/migrate/20190715144426_add_nameto_users.rb	/^class AddNametoUsers < ActiveRecord::Migration[5.2]$/;"	class	line:1
-change	/Users/martius/Code/Kartoffelchecker/db/migrate/20190715144426_add_nameto_users.rb	/^  def change$/;"	method	line:2	class:AddNametoUsers
