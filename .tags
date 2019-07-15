@@ -20,3 +20,5 @@ update	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	
 destroy	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^  def destroy$/;"	method	line:69	class:UsersController
 set_user	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^    def set_user$/;"	method	line:79	class:UsersController
 user_params	/Users/martius/Code/Kartoffelchecker/app/controllers/users_controller.rb	/^    def user_params$/;"	method	line:84	class:UsersController
+Kartoffelchecker	/Users/martius/Code/Kartoffelchecker/config/application.rb	/^module Kartoffelchecker$/;"	module	line:12
+Application	/Users/martius/Code/Kartoffelchecker/config/application.rb	/^  class Application < Rails::Application$/;"	class	line:13	class:Kartoffelchecker
