@@ -7,15 +7,19 @@ class UsersController < ApplicationController
     @users = User.all
   end
 
+  def solution
+    email = params[:email]
+
+    if @user = User.find_by_email(email)
+     render :template => "users/_correct"
+   else
+     render :template => "users/_incorrect"
+   end
+  end
+
   def guess
       #@email = "gregor_martius"
-      email = params[:email]
 
-      if @user = User.find_by_email(email)
-       render :template => "users/_correct"
-     else
-       render :template => "users/_incorrect"
-     end
 
   end
 
