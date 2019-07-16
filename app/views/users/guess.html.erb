@@ -1,26 +1,29 @@
-<p style=font: bold 18px, Calibri, sans-serif;>
+<p style="background-color: #FAFAFA">
 
-Bitte gib deine Email-Adresse ein (sollte die gleiche Adresse sein, auf der du unseren Newsletter empfängst)</p>
+
 
 
 <%= form_tag(solution_users_path, method: "get") do %>
-  <%= label_tag(:email, "Email-Adresse") %>
+  <%= label_tag(:email, "Deine Email-Adresse (die Adresse auf der Du den Newsletter erhälst)", style: 'font-family: calibri; font-size:18px; padding-top:10px; padding-bottom:5px;') %>
   <%= text_field_tag(:email) %>
 
-<%= label_tag(:sorte1, "Tip1") %>
+<%= label_tag(:sorte1, "Dein Tipp für Sorte 1", style: 'font-family: calibri; font-size:18px; padding-top:10px; padding-bottom:5px;') %>
   <select name="sorte1" id="sorte1">
-    <option value="Adretta">Adretta</option>
-    <option value="Centifolia">Centifolia</option>
-    <option value="falsch">Berlin</option>
+    <option value="Adretta">132 Adretta</option>
+    <option value="Centifolia">142 Centifolia</option>
+    <option value="Heiderot">122 Heiderot</option>
   </select>
 
-<%= label_tag(:sorte2, "Tip2") %>
+<%= label_tag(:sorte2, "Dein Tipp für Sorte 2", style: 'font-family: calibri; font-size:18px; padding-top:10px; padding-bottom:5px;') %>
   <select name="sorte2" id="sorte2">
-    <option value="Adretta">Adretta</option>
-    <option value="Centifolia">Centifolia</option>
-    <option value="falsch">Berlin</option>
+    <option value="Adretta">132 Adretta</option>
+    <option value="Centifolia">142 Centifolia</option>
+    <option value="Heiderot">122 Heiderot</option>
   </select>
 
-  <%= submit_tag("Kartoffel-Check") %>
-
+<p>
+  <%= submit_tag("Check") %>
+</p>
 <% end %>
+
+</p>
