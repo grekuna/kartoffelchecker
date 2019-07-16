@@ -6,5 +6,21 @@ Bitte gib deine Email-Adresse ein (sollte die gleiche Adresse sein, auf der du u
 <%= form_tag(solution_users_path, method: "get") do %>
   <%= label_tag(:email, "Email-Adresse") %>
   <%= text_field_tag(:email) %>
+
+<%= label_tag(:sorte1, "Tip1") %>
+  <select name="sorte1" id="sorte1">
+    <option value="Adretta">Adretta</option>
+    <option value="Centifolia">Centifolia</option>
+    <option value="falsch">Berlin</option>
+  </select>
+
+<%= label_tag(:sorte2, "Tip2") %>
+  <select name="sorte2" id="sorte2">
+    <option value="Adretta">Adretta</option>
+    <option value="Centifolia">Centifolia</option>
+    <option value="falsch">Berlin</option>
+  </select>
+
   <%= submit_tag("Kartoffel-Check") %>
+
 <% end %>

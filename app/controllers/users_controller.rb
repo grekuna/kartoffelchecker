@@ -9,11 +9,22 @@ class UsersController < ApplicationController
 
   def solution
     email = params[:email]
-
+    @sorte1 = params[:sorte1]
+    @sorte2 = params[:sorte2]
     if @user = User.find_by_email(email)
-     render :template => "users/_correct"
+      if (@sorte1 == @user.sorte11 || @sorte1 == @user.sorte22) && (@sorte2 == @user.sorte11 || @sorte2 == @user.sorte22)
+          if @sorte1 == @sorte2
+            render :template => "users/_partial_correct"
+          else
+            render :template => "users/_correct"
+          end
+      elsif (@sorte1 == @user.sorte11 || @sorte1 == @user.sorte22) || (@sorte2 == @user.sorte11 || @sorte2 == @user.sorte22)
+         render :template => "users/_partial_correct"
+      else
+        render :template => "users/_incorrect"
+      end
    else
-     render :template => "users/_incorrect"
+     render :template => "users/_notfound"
    end
   end
 
