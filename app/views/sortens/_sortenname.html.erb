@@ -1,0 +1,8 @@
+
+<% if  Sorten.find_by_code(@code1) %>
+ <div>Deine Sorte heisst <%=  Sorten.find_by_code(@code1).sorte%></div>
+<% else %>
+ <div>Dieser Code stimmt mit keinder Sorte überein. Versuch es nochmals</div>
+<% end %>
+
+<button><%= link_to "Nochmals versuchen", guess_sortens_path %></button>

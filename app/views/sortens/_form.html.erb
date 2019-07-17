@@ -1,0 +1,27 @@
+<%= form_with(model: sorten, local: true) do |form| %>
+  <% if sorten.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(sorten.errors.count, "error") %> prohibited this sorten from being saved:</h2>
+
+      <ul>
+      <% sorten.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :code %>
+    <%= form.number_field :code %>
+  </div>
+
+  <div class="field">
+    <%= form.label :sorte %>
+    <%= form.text_field :sorte %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

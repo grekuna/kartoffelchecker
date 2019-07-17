@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  resources :sortens do
+    collection do
+      get '/guess', to: 'sortens#guess', as: 'guess'
+      get '/solution', to: 'sortens#solution', as: 'solution'
+    end
+  end
+
   resources :users do
     collection do
       get '/guess', to: 'users#guess', as: 'guess'

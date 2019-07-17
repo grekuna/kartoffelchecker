@@ -1,0 +1,2 @@
+class Sorten < ApplicationRecord
+end

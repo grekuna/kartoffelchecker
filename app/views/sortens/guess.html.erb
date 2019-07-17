@@ -1,0 +1,13 @@
+
+
+
+
+
+  <%= form_tag(solution_sortens_path, method: "get") do %>
+    <%= label_tag(:sorte1, "Gib deinen Code ein um die Kartoffelsorte herauszufinden:", style: 'font-family: calibri; font-size:18px; padding-top:30px; padding-bottom:5px;') %>
+    <%= number_field_tag(:sorte1) %>
+
+  <p style='padding-top:20px; padding-bottom:5px;'>
+    <%= submit_tag("Code prüfen", style:'font-family: calibri; font-size:80px;') %>
+  </p>
+  <% end %>
